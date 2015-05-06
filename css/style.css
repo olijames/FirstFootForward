@@ -1,0 +1,395 @@
+button {
+  background-color: white;
+} 
+
+.contact {
+  margin-top: 50px;
+}
+
+.contact form {
+  background-color: #67083F;
+  padding: 15px;
+}
+
+.contact form h2 {
+  color: white;
+  margin-top: 10px;
+}
+
+.contact .wide {
+  width: 97%;
+}
+
+.feet h2, .legs h2 {
+  font-size: 40px;
+  color: #791028;
+  font-weight: 400;
+}
+
+.details h2 b {
+  font-weight: 700;
+}
+
+.contact form label {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400; 
+  line-height: 36px;
+  font-size: 22px;
+}
+
+img.tiny {
+  max-height:35px; 
+  max-width:35px;
+  display: inline;
+  vertical-align: center;
+  margin-bottom: -7px;
+}
+
+footer {
+  background-color: #F1491C;
+}
+
+
+
+
+  h2, h3, h4 {
+    font-family: 'Playfair Display', Georgia, serif;
+    text-align: center;
+  }
+
+  h2, h3 {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700; 
+  }
+
+  h2 {
+    margin-top: 20px;
+    font-size: 7.2rem;
+  }
+
+  h3 {
+    margin-top: 35px;
+    font-size: 4.5rem;
+  }
+
+  h3 span {
+    margin: -10px;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .navbar {
+    font-family: 'Playfair Display', Georgia, serif;
+    margin-bottom: 35px;
+  } 
+
+  .navbar-item .navbar-link {
+    margin: 25px;
+  }
+
+  .left {
+    text-align: left;
+    float: left;
+  }
+
+  .right {
+    text-align: right;
+    float:right;
+  }
+
+  .orange {
+    padding:12px;
+    color: white;
+    text-align: justify;
+    background-color: #EE3E23;
+  }
+
+  .purple {
+    padding:12px;
+    color: white;
+    text-align: justify;
+    background-color: #791028;
+  }
+
+
+
+.logo h1{ 
+  padding-top: 16px;
+  color: #791028;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.8em;
+  text-align: center;
+  margin: 0 auto 0px;
+}
+
+.logo h1 span {
+  color: #EE3E23;
+}
+
+.logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Triangles*/
+
+.contain {
+  margin-top: 35px;
+  max-width: 400px;
+}
+
+.up {
+  height: 150px;
+}
+
+.down {
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.tagline {
+  padding: 40px;
+  background-image: url(../images/container.png);
+  margin-top: 20px;
+  margin-left: -250px;
+  width: 350px;
+  height: 350px;
+  vertical-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/*Jumbotron*/
+
+.head {
+  background-image: url(../images/blocks.jpg);
+}
+
+.stomach {
+  background-image: url(../images/lego.jpg);
+}
+
+.legs {
+  text-align: justify;
+}
+
+.jumbotron {
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+
+  height: 650px;
+  text-align: center;
+  margin: 0 auto 0px;
+}
+
+.overlay {
+  background-image: url(../images/overlay.png);
+  height: 650px;
+}
+
+.hero {
+  height: 650px;
+}
+
+body {
+  font-size: 1.7em;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .logo img {
+    margin-top: 10px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 825px) {
+  
+  .navbar ul {
+    display: none;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .logo img {
+    margin-top: 0;
+  }
+
+  .profile {
+    width: 250px;
+  }
+
+  .tagline {
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url(../images/container-o.png);
+  }
+
+  .tagline h3 {
+    font-size: 3rem;
+  }
+
+  .tagline h3 span {
+    font-size: 2.5rem;
+  }
+
+  .jumbotron, .overlay, .hero {
+    height: 400px;
+  }
+}
+
+
+
+
+/* Navbar */
+  .navbar + .docs-section {
+    border-top-width: 0; }
+  .navbar,
+  .navbar-spacer {
+    display: block;
+    width: 100%;
+    height: 6.5rem;
+    background: #fff;
+    z-index: 99;
+    border-bottom: 1px solid #eee; }
+  .navbar-spacer {
+    display: none; }
+  .navbar > .container {
+    width: 100%; }
+  .navbar-list {
+    list-style: none;
+    margin-bottom: 0; }
+  .navbar-item {
+    position: relative;
+    margin-bottom: 0; }
+  .navbar-link {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    margin-right: 35px;
+    text-decoration: none;
+    line-height: 6.5rem;
+    color: #222; }
+  .navbar-link.active {
+    color: #33C3F0; }
+  .has-docked-nav .navbar {
+    position: fixed;
+    top: 0;
+    left: 0; }
+  .has-docked-nav .navbar-spacer {
+    display: block; }
+  /* Re-overiding the width 100% declaration to match size of % based container */
+  .has-docked-nav .navbar > .container {
+    width: 80%; }
+
+  /* Popover */
+  .popover.open {
+    display: block;
+  }
+  .popover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    top: 92%;
+    left: -50%;
+    -webkit-filter: drop-shadow(0 0 6px rgba(0,0,0,.1));
+       -moz-filter: drop-shadow(0 0 6px rgba(0,0,0,.1));
+            filter: drop-shadow(0 0 6px rgba(0,0,0,.1)); }
+  .popover-item:first-child .popover-link:after, 
+  .popover-item:first-child .popover-link:before {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none; }
+  .popover-item:first-child .popover-link:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #fff;
+    border-width: 10px;
+    margin-left: -10px; }
+  .popover-item:first-child .popover-link:before {
+    border-color: rgba(238, 238, 238, 0);
+    border-bottom-color: #eee;
+    border-width: 11px;
+    margin-left: -11px; }
+  .popover-list {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+  .popover-item {
+    padding: 0;
+    margin: 0; }
+  .popover-link {
+    position: relative;
+    color: #222;
+    display: block;
+    padding: 8px 20px;
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.0rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: .1rem; }
+  .popover-item:first-child .popover-link {
+    border-radius: 4px 4px 0 0; }
+  .popover-item:last-child .popover-link {
+    border-radius: 0 0 4px 4px;
+    border-bottom-width: 0; }
+  .popover-link:hover {
+    color: #fff;
+    background: #33C3F0; }
+  .popover-link:hover,
+  .popover-item:first-child .popover-link:hover:after {
+    border-bottom-color: #33C3F0; }
+}
